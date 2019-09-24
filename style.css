@@ -71,6 +71,12 @@ img{
     background-color: lightblue;
     font-family: arial;
   }
+  h1{
+    position: sticky;
+    top: 5px;
+    background-color: blue;
+    color: white;
+  }
 
   img{
     width: 30%;
@@ -119,7 +125,7 @@ img{
     padding: 5%;
     border: 3px dotted #eed6c8;
   }
-  
+
   hr{
     display: none;
   }
