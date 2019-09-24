@@ -112,18 +112,15 @@ img{
 
   #why .row > .first,
   #why .row > .second,
-  #why .row > .third
-  {
+  #why .row > .third{
     margin: auto;
     width: 80%;
     margin: 5%;
     padding: 5%;
     border: 3px dotted #eed6c8;
   }
-  #why .row > .first,
-  #why .row > .second,
-  #why .row > .third hr
-  {
+  
+  hr{
     display: none;
   }
 }
