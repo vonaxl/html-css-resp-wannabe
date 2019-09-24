@@ -67,13 +67,29 @@ img{
 }
 
 @media screen and (max-width:420px) {
+
   #lezioni .row{
     margin: auto;
     width: 100%;
-    background-color: blue;
   }
   #lezioni .row > .left, #lezioni .row > .right{
     width: auto;
     float: none;
+  }
+  #steps .row{
+    margin: auto;
+    width: 100%;
+  }
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right{
+    float: none;
+    width: 100%;
+    margin: auto;
+  }
+
+  #why .row{
+    margin: auto;
+    width: 100%;
   }
 }
