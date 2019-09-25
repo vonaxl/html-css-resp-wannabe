@@ -82,9 +82,10 @@ img{
     width: 30%;
     height: 30%;
   }
-  #lezioni .row{
+
+  .row{
+    width: auto;
     margin: auto;
-    width: 100%;
   }
 
   #lezioni .row > .left, #lezioni .row > .right{
@@ -95,10 +96,6 @@ img{
     padding: 5%;
   }
 
-  #steps .row{
-    margin: auto;
-    width: 100%;
-  }
 
   #steps .row > .left,
   #steps .row > .central,
@@ -109,11 +106,6 @@ img{
     border: 3px dotted #644e5b;
     margin: 5%;
     padding: 5%;
-  }
-
-  #why .row{
-    margin: auto;
-    width: auto;
   }
 
   #why .row > .first,
